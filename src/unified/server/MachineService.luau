@@ -57,6 +57,7 @@ function Upgrade.Init(player)
 end
 local function has(player,id) return player:GetAttribute("SW2_Own_"..id)==true end
 function Upgrade.Purchase(player,id)
+    if player:GetAttribute("SW3_Loading") then return end
     if player.Parent~=Players or type(id)~="string" then return end
     local info=Config.Machines[id]
     if not info then return end
@@ -77,6 +78,7 @@ local function distanceOkay(player,part)
     return root and root:IsA("BasePart") and (root.Position-part.Position).Magnitude<=14
 end
 function Upgrade.Process(player,id,interactor)
+    if player:GetAttribute("SW3_Loading") then return end
     if player.Parent~=Players or not distanceOkay(player,interactor) then return end
     local info=Config.Machines[id];if not info then return end
     if processing[player] then notify(player,"Machine is still cooling down.");return end

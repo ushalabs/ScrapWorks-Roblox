@@ -46,7 +46,7 @@ local function setup(player)
     notify(player, "PHASE 1 ONLINE  •  Collect 6 kinds of scrap, then refine!")
 end
 Players.PlayerAdded:Connect(setup)
-Players.PlayerRemoving:Connect(function(player) Inventory.Release(player) end)
+Players.PlayerRemoving:Connect(function(player) task.delay(2,function() Inventory.Release(player) end) end)
 for _,player in ipairs(Players:GetPlayers()) do task.spawn(setup,player) end
 
 -- Remove Phase0 dynamically created prompts, regardless of script startup order.

@@ -1,1 +1,3 @@
-Built against repository `ushalabs/ScrapWorks-Roblox` (main) audited 2026-10-14. Prior models correspond to Phase0, Phase1, Phase2 and corrected Phase2.5 in its `models/` directory. This archive is generated as a replacement and is not yet committed to GitHub.
+Git commit: 84c152a1e5890f368cd1b7905a7db6f8cf585477
+Verified v0.4 model git blob SHA: 5af81cec72afb1cc46db301b32dc8c48790b2b19
+Generated v0.5 SHA256: a0fd68616e49706ae7ae57ab8a64c2d2ce9d0b5287eb26ad8c44be3135ac18bd
