@@ -1,0 +1,3 @@
+*.luau text eol=lf
+*.md text eol=lf
+*.rbxmx text eol=lf

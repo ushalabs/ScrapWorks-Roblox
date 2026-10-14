@@ -1,0 +1,9 @@
+# Editor and local generated files
+.DS_Store
+Thumbs.db
+*.rbxl.lock
+*.rbxlx.lock
+__pycache__/
+*.pyc
+.venv/
+venv/
