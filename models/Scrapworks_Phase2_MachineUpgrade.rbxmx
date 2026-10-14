@@ -1,0 +1,2364 @@
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="4">
+  <Meta name="ExplicitAutoJoints">true</Meta>
+  <External>null</External>
+  <External>nil</External>
+  <Item class="Model" referent="RBX00000000000000000000000000000001">
+    <Properties>
+      <string name="Name">SCRAPWORKS_PHASE2_ADDON</string>
+    </Properties>
+    <Item class="Folder" referent="RBX00000000000000000000000000000002">
+      <Properties>
+        <string name="Name">MachineStations</string>
+      </Properties>
+      <Item class="Model" referent="RBX00000000000000000000000000000003">
+        <Properties>
+          <string name="Name">Compactor_Station</string>
+        </Properties>
+        <Item class="Part" referent="RBX00000000000000000000000000000004">
+          <Properties>
+            <string name="Name">Compactor_Base</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0</float>
+            <Color3 name="Color">
+              <R>0.0784314</R>
+              <G>0.1450980</G>
+              <B>0.1960784</B>
+            </Color3>
+            <token name="Material">1088</token>
+            <token name="Shape">1</token>
+            <Vector3 name="Size">
+              <X>6.6</X>
+              <Y>1.35</Y>
+              <Z>3.6</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>70.00000000</X>
+              <Y>1.45000000</Y>
+              <Z>11.90000000</Z>
+              <R00>1.00000000</R00>
+              <R01>0.00000000</R01>
+              <R02>0.00000000</R02>
+              <R10>0.00000000</R10>
+              <R11>1.00000000</R11>
+              <R12>0.00000000</R12>
+              <R20>-0.00000000</R20>
+              <R21>0.00000000</R21>
+              <R22>1.00000000</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX00000000000000000000000000000005">
+          <Properties>
+            <string name="Name">Compactor_BaseTrim</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0</float>
+            <Color3 name="Color">
+              <R>0.9686275</R>
+              <G>0.7725490</G>
+              <B>0.3019608</B>
+            </Color3>
+            <token name="Material">288</token>
+            <token name="Shape">1</token>
+            <Vector3 name="Size">
+              <X>6.75</X>
+              <Y>0.2</Y>
+              <Z>3.75</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>70.00000000</X>
+              <Y>2.14000000</Y>
+              <Z>11.90000000</Z>
+              <R00>1.00000000</R00>
+              <R01>0.00000000</R01>
+              <R02>0.00000000</R02>
+              <R10>0.00000000</R10>
+              <R11>1.00000000</R11>
+              <R12>0.00000000</R12>
+              <R20>-0.00000000</R20>
+              <R21>0.00000000</R21>
+              <R22>1.00000000</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX00000000000000000000000000000006">
+          <Properties>
+            <string name="Name">Compactor_Console</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0</float>
+            <Color3 name="Color">
+              <R>0.1137255</R>
+              <G>0.2000000</G>
+              <B>0.2509804</B>
+            </Color3>
+            <token name="Material">1088</token>
+            <token name="Shape">1</token>
+            <Vector3 name="Size">
+              <X>5.2</X>
+              <Y>2.3</Y>
+              <Z>1.8</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>70.00000000</X>
+              <Y>3.35000000</Y>
+              <Z>12.32000000</Z>
+              <R00>1.00000000</R00>
+              <R01>0.00000000</R01>
+              <R02>0.00000000</R02>
+              <R10>0.00000000</R10>
+              <R11>1.00000000</R11>
+              <R12>0.00000000</R12>
+              <R20>-0.00000000</R20>
+              <R21>0.00000000</R21>
+              <R22>1.00000000</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX00000000000000000000000000000007">
+          <Properties>
+            <string name="Name">Compactor_Screen</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">false</bool>
+            <float name="Transparency">0.22</float>
+            <Color3 name="Color">
+              <R>0.9686275</R>
+              <G>0.7725490</G>
+              <B>0.3019608</B>
+            </Color3>
+            <token name="Material">288</token>
+            <token name="Shape">1</token>
+            <Vector3 name="Size">
+              <X>4.55</X>
+              <Y>1.4</Y>
+              <Z>0.12</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>70.00000000</X>
+              <Y>3.65000000</Y>
+              <Z>13.28000000</Z>
+              <R00>1.00000000</R00>
+              <R01>0.00000000</R01>
+              <R02>0.00000000</R02>
+              <R10>0.00000000</R10>
+              <R11>1.00000000</R11>
+              <R12>0.00000000</R12>
+              <R20>-0.00000000</R20>
+              <R21>0.00000000</R21>
+              <R22>1.00000000</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX00000000000000000000000000000008">
+          <Properties>
+            <string name="Name">Compactor_Faceplate</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0</float>
+            <Color3 name="Color">
+              <R>0.0666667</R>
+              <G>0.1019608</G>
+              <B>0.1372549</B>
+            </Color3>
+            <token name="Material">1088</token>
+            <token name="Shape">1</token>
+            <Vector3 name="Size">
+              <X>4.9</X>
+              <Y>0.35</Y>
+              <Z>0.2</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>70.00000000</X>
+              <Y>2.55000000</Y>
+              <Z>13.32000000</Z>
+              <R00>1.00000000</R00>
+              <R01>0.00000000</R01>
+              <R02>0.00000000</R02>
+              <R10>0.00000000</R10>
+              <R11>1.00000000</R11>
+              <R12>0.00000000</R12>
+              <R20>-0.00000000</R20>
+              <R21>0.00000000</R21>
+              <R22>1.00000000</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX00000000000000000000000000000009">
+          <Properties>
+            <string name="Name">Compactor_AmberStatus</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">false</bool>
+            <float name="Transparency">0</float>
+            <Color3 name="Color">
+              <R>0.9686275</R>
+              <G>0.7725490</G>
+              <B>0.3019608</B>
+            </Color3>
+            <token name="Material">288</token>
+            <token name="Shape">1</token>
+            <Vector3 name="Size">
+              <X>0.34</X>
+              <Y>0.31</Y>
+              <Z>0.6</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>68.00000000</X>
+              <Y>4.53000000</Y>
+              <Z>11.90000000</Z>
+              <R00>1.00000000</R00>
+              <R01>0.00000000</R01>
+              <R02>0.00000000</R02>
+              <R10>0.00000000</R10>
+              <R11>1.00000000</R11>
+              <R12>0.00000000</R12>
+              <R20>-0.00000000</R20>
+              <R21>0.00000000</R21>
+              <R22>1.00000000</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX0000000000000000000000000000000A">
+          <Properties>
+            <string name="Name">Compactor_Hydraulics</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0</float>
+            <Color3 name="Color">
+              <R>0.4156863</R>
+              <G>0.5215686</G>
+              <B>0.5725490</B>
+            </Color3>
+            <token name="Material">1088</token>
+            <token name="Shape">1</token>
+            <Vector3 name="Size">
+              <X>0.72</X>
+              <Y>3.0</Y>
+              <Z>0.72</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>68.00000000</X>
+              <Y>5.70000000</Y>
+              <Z>7.70000000</Z>
+              <R00>1.00000000</R00>
+              <R01>0.00000000</R01>
+              <R02>0.00000000</R02>
+              <R10>0.00000000</R10>
+              <R11>1.00000000</R11>
+              <R12>0.00000000</R12>
+              <R20>-0.00000000</R20>
+              <R21>0.00000000</R21>
+              <R22>1.00000000</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX0000000000000000000000000000000B">
+          <Properties>
+            <string name="Name">Compactor_AmberStatus</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">false</bool>
+            <float name="Transparency">0</float>
+            <Color3 name="Color">
+              <R>0.9686275</R>
+              <G>0.7725490</G>
+              <B>0.3019608</B>
+            </Color3>
+            <token name="Material">288</token>
+            <token name="Shape">1</token>
+            <Vector3 name="Size">
+              <X>0.34</X>
+              <Y>0.31</Y>
+              <Z>0.6</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>72.00000000</X>
+              <Y>4.53000000</Y>
+              <Z>11.90000000</Z>
+              <R00>1.00000000</R00>
+              <R01>0.00000000</R01>
+              <R02>0.00000000</R02>
+              <R10>0.00000000</R10>
+              <R11>1.00000000</R11>
+              <R12>0.00000000</R12>
+              <R20>-0.00000000</R20>
+              <R21>0.00000000</R21>
+              <R22>1.00000000</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX0000000000000000000000000000000C">
+          <Properties>
+            <string name="Name">Compactor_Hydraulics</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0</float>
+            <Color3 name="Color">
+              <R>0.4156863</R>
+              <G>0.5215686</G>
+              <B>0.5725490</B>
+            </Color3>
+            <token name="Material">1088</token>
+            <token name="Shape">1</token>
+            <Vector3 name="Size">
+              <X>0.72</X>
+              <Y>3.0</Y>
+              <Z>0.72</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>72.00000000</X>
+              <Y>5.70000000</Y>
+              <Z>7.70000000</Z>
+              <R00>1.00000000</R00>
+              <R01>0.00000000</R01>
+              <R02>0.00000000</R02>
+              <R10>0.00000000</R10>
+              <R11>1.00000000</R11>
+              <R12>0.00000000</R12>
+              <R20>-0.00000000</R20>
+              <R21>0.00000000</R21>
+              <R22>1.00000000</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX0000000000000000000000000000000D">
+          <Properties>
+            <string name="Name">Compactor_TopBrow</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0</float>
+            <Color3 name="Color">
+              <R>0.0784314</R>
+              <G>0.1450980</G>
+              <B>0.1960784</B>
+            </Color3>
+            <token name="Material">1088</token>
+            <token name="Shape">1</token>
+            <Vector3 name="Size">
+              <X>7.5</X>
+              <Y>0.68</Y>
+              <Z>1.2</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>70.00000000</X>
+              <Y>5.15000000</Y>
+              <Z>8.80000000</Z>
+              <R00>1.00000000</R00>
+              <R01>0.00000000</R01>
+              <R02>0.00000000</R02>
+              <R10>0.00000000</R10>
+              <R11>1.00000000</R11>
+              <R12>0.00000000</R12>
+              <R20>-0.00000000</R20>
+              <R21>0.00000000</R21>
+              <R22>1.00000000</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX0000000000000000000000000000000E">
+          <Properties>
+            <string name="Name">Compactor_AccentRail</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">false</bool>
+            <float name="Transparency">0</float>
+            <Color3 name="Color">
+              <R>0.9686275</R>
+              <G>0.7725490</G>
+              <B>0.3019608</B>
+            </Color3>
+            <token name="Material">288</token>
+            <token name="Shape">1</token>
+            <Vector3 name="Size">
+              <X>7.65</X>
+              <Y>0.18</Y>
+              <Z>1.35</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>70.00000000</X>
+              <Y>5.57000000</Y>
+              <Z>8.80000000</Z>
+              <R00>1.00000000</R00>
+              <R01>0.00000000</R01>
+              <R02>0.00000000</R02>
+              <R10>0.00000000</R10>
+              <R11>1.00000000</R11>
+              <R12>0.00000000</R12>
+              <R20>-0.00000000</R20>
+              <R21>0.00000000</R21>
+              <R22>1.00000000</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX0000000000000000000000000000000F">
+          <Properties>
+            <string name="Name">CompressionPlateLower</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0</float>
+            <Color3 name="Color">
+              <R>0.2862745</R>
+              <G>0.4078431</G>
+              <B>0.4784314</B>
+            </Color3>
+            <token name="Material">1056</token>
+            <token name="Shape">1</token>
+            <Vector3 name="Size">
+              <X>6</X>
+              <Y>0.45</Y>
+              <Z>4</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>70.00000000</X>
+              <Y>2.20000000</Y>
+              <Z>7.00000000</Z>
+              <R00>1.00000000</R00>
+              <R01>0.00000000</R01>
+              <R02>0.00000000</R02>
+              <R10>0.00000000</R10>
+              <R11>1.00000000</R11>
+              <R12>0.00000000</R12>
+              <R20>-0.00000000</R20>
+              <R21>0.00000000</R21>
+              <R22>1.00000000</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX00000000000000000000000000000010">
+          <Properties>
+            <string name="Name">CompressionPlateUpper</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0</float>
+            <Color3 name="Color">
+              <R>0.9686275</R>
+              <G>0.7725490</G>
+              <B>0.3019608</B>
+            </Color3>
+            <token name="Material">1088</token>
+            <token name="Shape">1</token>
+            <Vector3 name="Size">
+              <X>6</X>
+              <Y>0.6</Y>
+              <Z>4</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>70.00000000</X>
+              <Y>8.20000000</Y>
+              <Z>7.00000000</Z>
+              <R00>1.00000000</R00>
+              <R01>0.00000000</R01>
+              <R02>0.00000000</R02>
+              <R10>0.00000000</R10>
+              <R11>1.00000000</R11>
+              <R12>0.00000000</R12>
+              <R20>-0.00000000</R20>
+              <R21>0.00000000</R21>
+              <R22>1.00000000</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX00000000000000000000000000000011">
+          <Properties>
+            <string name="Name">HydraulicPiston</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0</float>
+            <Color3 name="Color">
+              <R>0.6235294</R>
+              <G>0.7137255</G>
+              <B>0.7607843</B>
+            </Color3>
+            <token name="Material">1088</token>
+            <token name="Shape">2</token>
+            <Vector3 name="Size">
+              <X>3.8</X>
+              <Y>1.4</Y>
+              <Z>1.4</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>67.30000000</X>
+              <Y>6.50000000</Y>
+              <Z>7.00000000</Z>
+              <R00>0</R00>
+              <R01>1</R01>
+              <R02>0</R02>
+              <R10>-1</R10>
+              <R11>0</R11>
+              <R12>0</R12>
+              <R20>0</R20>
+              <R21>0</R21>
+              <R22>1</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX00000000000000000000000000000012">
+          <Properties>
+            <string name="Name">HydraulicPiston</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0</float>
+            <Color3 name="Color">
+              <R>0.6235294</R>
+              <G>0.7137255</G>
+              <B>0.7607843</B>
+            </Color3>
+            <token name="Material">1088</token>
+            <token name="Shape">2</token>
+            <Vector3 name="Size">
+              <X>3.8</X>
+              <Y>1.4</Y>
+              <Z>1.4</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>72.70000000</X>
+              <Y>6.50000000</Y>
+              <Z>7.00000000</Z>
+              <R00>0</R00>
+              <R01>1</R01>
+              <R02>0</R02>
+              <R10>-1</R10>
+              <R11>0</R11>
+              <R12>0</R12>
+              <R20>0</R20>
+              <R21>0</R21>
+              <R22>1</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX00000000000000000000000000000013">
+          <Properties>
+            <string name="Name">MachineInteractor</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">false</bool>
+            <float name="Transparency">1</float>
+            <Color3 name="Color">
+              <R>0.9686275</R>
+              <G>0.7725490</G>
+              <B>0.3019608</B>
+            </Color3>
+            <token name="Material">1568</token>
+            <token name="Shape">1</token>
+            <Vector3 name="Size">
+              <X>4.5</X>
+              <Y>1.3</Y>
+              <Z>0.22</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>70.00000000</X>
+              <Y>3.65000000</Y>
+              <Z>13.45000000</Z>
+              <R00>1.00000000</R00>
+              <R01>0.00000000</R01>
+              <R02>0.00000000</R02>
+              <R10>0.00000000</R10>
+              <R11>1.00000000</R11>
+              <R12>0.00000000</R12>
+              <R20>-0.00000000</R20>
+              <R21>0.00000000</R21>
+              <R22>1.00000000</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX00000000000000000000000000000014">
+          <Properties>
+            <string name="Name">WalkwayGuide</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">false</bool>
+            <float name="Transparency">0</float>
+            <Color3 name="Color">
+              <R>0.9686275</R>
+              <G>0.7725490</G>
+              <B>0.3019608</B>
+            </Color3>
+            <token name="Material">288</token>
+            <token name="Shape">1</token>
+            <Vector3 name="Size">
+              <X>0.18</X>
+              <Y>0.09</Y>
+              <Z>4.8</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>66.60000000</X>
+              <Y>0.90000000</Y>
+              <Z>13.60000000</Z>
+              <R00>1.00000000</R00>
+              <R01>0.00000000</R01>
+              <R02>0.00000000</R02>
+              <R10>0.00000000</R10>
+              <R11>1.00000000</R11>
+              <R12>0.00000000</R12>
+              <R20>-0.00000000</R20>
+              <R21>0.00000000</R21>
+              <R22>1.00000000</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX00000000000000000000000000000015">
+          <Properties>
+            <string name="Name">WalkwayGuide</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">false</bool>
+            <float name="Transparency">0</float>
+            <Color3 name="Color">
+              <R>0.9686275</R>
+              <G>0.7725490</G>
+              <B>0.3019608</B>
+            </Color3>
+            <token name="Material">288</token>
+            <token name="Shape">1</token>
+            <Vector3 name="Size">
+              <X>0.18</X>
+              <Y>0.09</Y>
+              <Z>4.8</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>73.40000000</X>
+              <Y>0.90000000</Y>
+              <Z>13.60000000</Z>
+              <R00>1.00000000</R00>
+              <R01>0.00000000</R01>
+              <R02>0.00000000</R02>
+              <R10>0.00000000</R10>
+              <R11>1.00000000</R11>
+              <R12>0.00000000</R12>
+              <R20>-0.00000000</R20>
+              <R21>0.00000000</R21>
+              <R22>1.00000000</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Model" referent="RBX00000000000000000000000000000016">
+        <Properties>
+          <string name="Name">Sorter_Station</string>
+        </Properties>
+        <Item class="Part" referent="RBX00000000000000000000000000000017">
+          <Properties>
+            <string name="Name">Sorter_Base</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0</float>
+            <Color3 name="Color">
+              <R>0.0784314</R>
+              <G>0.1450980</G>
+              <B>0.1960784</B>
+            </Color3>
+            <token name="Material">1088</token>
+            <token name="Shape">1</token>
+            <Vector3 name="Size">
+              <X>6.6</X>
+              <Y>1.35</Y>
+              <Z>3.6</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>93.00000000</X>
+              <Y>1.45000000</Y>
+              <Z>4.90000000</Z>
+              <R00>1.00000000</R00>
+              <R01>0.00000000</R01>
+              <R02>0.00000000</R02>
+              <R10>0.00000000</R10>
+              <R11>1.00000000</R11>
+              <R12>0.00000000</R12>
+              <R20>-0.00000000</R20>
+              <R21>0.00000000</R21>
+              <R22>1.00000000</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX00000000000000000000000000000018">
+          <Properties>
+            <string name="Name">Sorter_BaseTrim</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0</float>
+            <Color3 name="Color">
+              <R>0.2470588</R>
+              <G>0.9019608</G>
+              <B>0.8509804</B>
+            </Color3>
+            <token name="Material">288</token>
+            <token name="Shape">1</token>
+            <Vector3 name="Size">
+              <X>6.75</X>
+              <Y>0.2</Y>
+              <Z>3.75</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>93.00000000</X>
+              <Y>2.14000000</Y>
+              <Z>4.90000000</Z>
+              <R00>1.00000000</R00>
+              <R01>0.00000000</R01>
+              <R02>0.00000000</R02>
+              <R10>0.00000000</R10>
+              <R11>1.00000000</R11>
+              <R12>0.00000000</R12>
+              <R20>-0.00000000</R20>
+              <R21>0.00000000</R21>
+              <R22>1.00000000</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX00000000000000000000000000000019">
+          <Properties>
+            <string name="Name">Sorter_Console</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0</float>
+            <Color3 name="Color">
+              <R>0.1137255</R>
+              <G>0.2000000</G>
+              <B>0.2509804</B>
+            </Color3>
+            <token name="Material">1088</token>
+            <token name="Shape">1</token>
+            <Vector3 name="Size">
+              <X>5.2</X>
+              <Y>2.3</Y>
+              <Z>1.8</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>93.00000000</X>
+              <Y>3.35000000</Y>
+              <Z>5.32000000</Z>
+              <R00>1.00000000</R00>
+              <R01>0.00000000</R01>
+              <R02>0.00000000</R02>
+              <R10>0.00000000</R10>
+              <R11>1.00000000</R11>
+              <R12>0.00000000</R12>
+              <R20>-0.00000000</R20>
+              <R21>0.00000000</R21>
+              <R22>1.00000000</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX0000000000000000000000000000001A">
+          <Properties>
+            <string name="Name">Sorter_Screen</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">false</bool>
+            <float name="Transparency">0.22</float>
+            <Color3 name="Color">
+              <R>0.2470588</R>
+              <G>0.9019608</G>
+              <B>0.8509804</B>
+            </Color3>
+            <token name="Material">288</token>
+            <token name="Shape">1</token>
+            <Vector3 name="Size">
+              <X>4.55</X>
+              <Y>1.4</Y>
+              <Z>0.12</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>93.00000000</X>
+              <Y>3.65000000</Y>
+              <Z>6.28000000</Z>
+              <R00>1.00000000</R00>
+              <R01>0.00000000</R01>
+              <R02>0.00000000</R02>
+              <R10>0.00000000</R10>
+              <R11>1.00000000</R11>
+              <R12>0.00000000</R12>
+              <R20>-0.00000000</R20>
+              <R21>0.00000000</R21>
+              <R22>1.00000000</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX0000000000000000000000000000001B">
+          <Properties>
+            <string name="Name">Sorter_Faceplate</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0</float>
+            <Color3 name="Color">
+              <R>0.0666667</R>
+              <G>0.1019608</G>
+              <B>0.1372549</B>
+            </Color3>
+            <token name="Material">1088</token>
+            <token name="Shape">1</token>
+            <Vector3 name="Size">
+              <X>4.9</X>
+              <Y>0.35</Y>
+              <Z>0.2</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>93.00000000</X>
+              <Y>2.55000000</Y>
+              <Z>6.32000000</Z>
+              <R00>1.00000000</R00>
+              <R01>0.00000000</R01>
+              <R02>0.00000000</R02>
+              <R10>0.00000000</R10>
+              <R11>1.00000000</R11>
+              <R12>0.00000000</R12>
+              <R20>-0.00000000</R20>
+              <R21>0.00000000</R21>
+              <R22>1.00000000</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX0000000000000000000000000000001C">
+          <Properties>
+            <string name="Name">Sorter_AmberStatus</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">false</bool>
+            <float name="Transparency">0</float>
+            <Color3 name="Color">
+              <R>0.9686275</R>
+              <G>0.7725490</G>
+              <B>0.3019608</B>
+            </Color3>
+            <token name="Material">288</token>
+            <token name="Shape">1</token>
+            <Vector3 name="Size">
+              <X>0.34</X>
+              <Y>0.31</Y>
+              <Z>0.6</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>91.00000000</X>
+              <Y>4.53000000</Y>
+              <Z>4.90000000</Z>
+              <R00>1.00000000</R00>
+              <R01>0.00000000</R01>
+              <R02>0.00000000</R02>
+              <R10>0.00000000</R10>
+              <R11>1.00000000</R11>
+              <R12>0.00000000</R12>
+              <R20>-0.00000000</R20>
+              <R21>0.00000000</R21>
+              <R22>1.00000000</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX0000000000000000000000000000001D">
+          <Properties>
+            <string name="Name">Sorter_Hydraulics</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0</float>
+            <Color3 name="Color">
+              <R>0.4156863</R>
+              <G>0.5215686</G>
+              <B>0.5725490</B>
+            </Color3>
+            <token name="Material">1088</token>
+            <token name="Shape">1</token>
+            <Vector3 name="Size">
+              <X>0.72</X>
+              <Y>3.0</Y>
+              <Z>0.72</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>91.00000000</X>
+              <Y>5.70000000</Y>
+              <Z>0.70000000</Z>
+              <R00>1.00000000</R00>
+              <R01>0.00000000</R01>
+              <R02>0.00000000</R02>
+              <R10>0.00000000</R10>
+              <R11>1.00000000</R11>
+              <R12>0.00000000</R12>
+              <R20>-0.00000000</R20>
+              <R21>0.00000000</R21>
+              <R22>1.00000000</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX0000000000000000000000000000001E">
+          <Properties>
+            <string name="Name">Sorter_AmberStatus</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">false</bool>
+            <float name="Transparency">0</float>
+            <Color3 name="Color">
+              <R>0.9686275</R>
+              <G>0.7725490</G>
+              <B>0.3019608</B>
+            </Color3>
+            <token name="Material">288</token>
+            <token name="Shape">1</token>
+            <Vector3 name="Size">
+              <X>0.34</X>
+              <Y>0.31</Y>
+              <Z>0.6</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>95.00000000</X>
+              <Y>4.53000000</Y>
+              <Z>4.90000000</Z>
+              <R00>1.00000000</R00>
+              <R01>0.00000000</R01>
+              <R02>0.00000000</R02>
+              <R10>0.00000000</R10>
+              <R11>1.00000000</R11>
+              <R12>0.00000000</R12>
+              <R20>-0.00000000</R20>
+              <R21>0.00000000</R21>
+              <R22>1.00000000</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX0000000000000000000000000000001F">
+          <Properties>
+            <string name="Name">Sorter_Hydraulics</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0</float>
+            <Color3 name="Color">
+              <R>0.4156863</R>
+              <G>0.5215686</G>
+              <B>0.5725490</B>
+            </Color3>
+            <token name="Material">1088</token>
+            <token name="Shape">1</token>
+            <Vector3 name="Size">
+              <X>0.72</X>
+              <Y>3.0</Y>
+              <Z>0.72</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>95.00000000</X>
+              <Y>5.70000000</Y>
+              <Z>0.70000000</Z>
+              <R00>1.00000000</R00>
+              <R01>0.00000000</R01>
+              <R02>0.00000000</R02>
+              <R10>0.00000000</R10>
+              <R11>1.00000000</R11>
+              <R12>0.00000000</R12>
+              <R20>-0.00000000</R20>
+              <R21>0.00000000</R21>
+              <R22>1.00000000</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX00000000000000000000000000000020">
+          <Properties>
+            <string name="Name">Sorter_TopBrow</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0</float>
+            <Color3 name="Color">
+              <R>0.0784314</R>
+              <G>0.1450980</G>
+              <B>0.1960784</B>
+            </Color3>
+            <token name="Material">1088</token>
+            <token name="Shape">1</token>
+            <Vector3 name="Size">
+              <X>7.5</X>
+              <Y>0.68</Y>
+              <Z>1.2</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>93.00000000</X>
+              <Y>5.15000000</Y>
+              <Z>1.80000000</Z>
+              <R00>1.00000000</R00>
+              <R01>0.00000000</R01>
+              <R02>0.00000000</R02>
+              <R10>0.00000000</R10>
+              <R11>1.00000000</R11>
+              <R12>0.00000000</R12>
+              <R20>-0.00000000</R20>
+              <R21>0.00000000</R21>
+              <R22>1.00000000</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX00000000000000000000000000000021">
+          <Properties>
+            <string name="Name">Sorter_AccentRail</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">false</bool>
+            <float name="Transparency">0</float>
+            <Color3 name="Color">
+              <R>0.2470588</R>
+              <G>0.9019608</G>
+              <B>0.8509804</B>
+            </Color3>
+            <token name="Material">288</token>
+            <token name="Shape">1</token>
+            <Vector3 name="Size">
+              <X>7.65</X>
+              <Y>0.18</Y>
+              <Z>1.35</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>93.00000000</X>
+              <Y>5.57000000</Y>
+              <Z>1.80000000</Z>
+              <R00>1.00000000</R00>
+              <R01>0.00000000</R01>
+              <R02>0.00000000</R02>
+              <R10>0.00000000</R10>
+              <R11>1.00000000</R11>
+              <R12>0.00000000</R12>
+              <R20>-0.00000000</R20>
+              <R21>0.00000000</R21>
+              <R22>1.00000000</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX00000000000000000000000000000022">
+          <Properties>
+            <string name="Name">ScannerRail</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">false</bool>
+            <float name="Transparency">0</float>
+            <Color3 name="Color">
+              <R>0.2470588</R>
+              <G>0.9019608</G>
+              <B>0.8509804</B>
+            </Color3>
+            <token name="Material">288</token>
+            <token name="Shape">1</token>
+            <Vector3 name="Size">
+              <X>0.35</X>
+              <Y>0.4</Y>
+              <Z>7</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>91.00000000</X>
+              <Y>8.50000000</Y>
+              <Z>-1.00000000</Z>
+              <R00>1.00000000</R00>
+              <R01>0.00000000</R01>
+              <R02>0.00000000</R02>
+              <R10>0.00000000</R10>
+              <R11>1.00000000</R11>
+              <R12>0.00000000</R12>
+              <R20>-0.00000000</R20>
+              <R21>0.00000000</R21>
+              <R22>1.00000000</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX00000000000000000000000000000023">
+          <Properties>
+            <string name="Name">ScannerHead</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0</float>
+            <Color3 name="Color">
+              <R>0.0784314</R>
+              <G>0.1450980</G>
+              <B>0.1960784</B>
+            </Color3>
+            <token name="Material">1088</token>
+            <token name="Shape">1</token>
+            <Vector3 name="Size">
+              <X>1.25</X>
+              <Y>1.1</Y>
+              <Z>1.3</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>91.00000000</X>
+              <Y>7.80000000</Y>
+              <Z>0.00000000</Z>
+              <R00>1.00000000</R00>
+              <R01>0.00000000</R01>
+              <R02>0.00000000</R02>
+              <R10>0.00000000</R10>
+              <R11>1.00000000</R11>
+              <R12>0.00000000</R12>
+              <R20>-0.00000000</R20>
+              <R21>0.00000000</R21>
+              <R22>1.00000000</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX00000000000000000000000000000024">
+          <Properties>
+            <string name="Name">ScannerRail</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">false</bool>
+            <float name="Transparency">0</float>
+            <Color3 name="Color">
+              <R>0.2470588</R>
+              <G>0.9019608</G>
+              <B>0.8509804</B>
+            </Color3>
+            <token name="Material">288</token>
+            <token name="Shape">1</token>
+            <Vector3 name="Size">
+              <X>0.35</X>
+              <Y>0.4</Y>
+              <Z>7</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>93.00000000</X>
+              <Y>8.50000000</Y>
+              <Z>-1.00000000</Z>
+              <R00>1.00000000</R00>
+              <R01>0.00000000</R01>
+              <R02>0.00000000</R02>
+              <R10>0.00000000</R10>
+              <R11>1.00000000</R11>
+              <R12>0.00000000</R12>
+              <R20>-0.00000000</R20>
+              <R21>0.00000000</R21>
+              <R22>1.00000000</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX00000000000000000000000000000025">
+          <Properties>
+            <string name="Name">ScannerHead</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0</float>
+            <Color3 name="Color">
+              <R>0.0784314</R>
+              <G>0.1450980</G>
+              <B>0.1960784</B>
+            </Color3>
+            <token name="Material">1088</token>
+            <token name="Shape">1</token>
+            <Vector3 name="Size">
+              <X>1.25</X>
+              <Y>1.1</Y>
+              <Z>1.3</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>93.00000000</X>
+              <Y>7.80000000</Y>
+              <Z>0.00000000</Z>
+              <R00>1.00000000</R00>
+              <R01>0.00000000</R01>
+              <R02>0.00000000</R02>
+              <R10>0.00000000</R10>
+              <R11>1.00000000</R11>
+              <R12>0.00000000</R12>
+              <R20>-0.00000000</R20>
+              <R21>0.00000000</R21>
+              <R22>1.00000000</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX00000000000000000000000000000026">
+          <Properties>
+            <string name="Name">ScannerRail</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">false</bool>
+            <float name="Transparency">0</float>
+            <Color3 name="Color">
+              <R>0.2470588</R>
+              <G>0.9019608</G>
+              <B>0.8509804</B>
+            </Color3>
+            <token name="Material">288</token>
+            <token name="Shape">1</token>
+            <Vector3 name="Size">
+              <X>0.35</X>
+              <Y>0.4</Y>
+              <Z>7</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>95.00000000</X>
+              <Y>8.50000000</Y>
+              <Z>-1.00000000</Z>
+              <R00>1.00000000</R00>
+              <R01>0.00000000</R01>
+              <R02>0.00000000</R02>
+              <R10>0.00000000</R10>
+              <R11>1.00000000</R11>
+              <R12>0.00000000</R12>
+              <R20>-0.00000000</R20>
+              <R21>0.00000000</R21>
+              <R22>1.00000000</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX00000000000000000000000000000027">
+          <Properties>
+            <string name="Name">ScannerHead</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0</float>
+            <Color3 name="Color">
+              <R>0.0784314</R>
+              <G>0.1450980</G>
+              <B>0.1960784</B>
+            </Color3>
+            <token name="Material">1088</token>
+            <token name="Shape">1</token>
+            <Vector3 name="Size">
+              <X>1.25</X>
+              <Y>1.1</Y>
+              <Z>1.3</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>95.00000000</X>
+              <Y>7.80000000</Y>
+              <Z>0.00000000</Z>
+              <R00>1.00000000</R00>
+              <R01>0.00000000</R01>
+              <R02>0.00000000</R02>
+              <R10>0.00000000</R10>
+              <R11>1.00000000</R11>
+              <R12>0.00000000</R12>
+              <R20>-0.00000000</R20>
+              <R21>0.00000000</R21>
+              <R22>1.00000000</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX00000000000000000000000000000028">
+          <Properties>
+            <string name="Name">OpticalWindow</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">false</bool>
+            <float name="Transparency">0.5</float>
+            <Color3 name="Color">
+              <R>0.2470588</R>
+              <G>0.9019608</G>
+              <B>0.8509804</B>
+            </Color3>
+            <token name="Material">1568</token>
+            <token name="Shape">1</token>
+            <Vector3 name="Size">
+              <X>7</X>
+              <Y>2.7</Y>
+              <Z>0.17</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>93.00000000</X>
+              <Y>6.60000000</Y>
+              <Z>2.60000000</Z>
+              <R00>1.00000000</R00>
+              <R01>0.00000000</R01>
+              <R02>0.00000000</R02>
+              <R10>0.00000000</R10>
+              <R11>1.00000000</R11>
+              <R12>0.00000000</R12>
+              <R20>-0.00000000</R20>
+              <R21>0.00000000</R21>
+              <R22>1.00000000</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX00000000000000000000000000000029">
+          <Properties>
+            <string name="Name">MachineInteractor</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">false</bool>
+            <float name="Transparency">1</float>
+            <Color3 name="Color">
+              <R>0.2470588</R>
+              <G>0.9019608</G>
+              <B>0.8509804</B>
+            </Color3>
+            <token name="Material">1568</token>
+            <token name="Shape">1</token>
+            <Vector3 name="Size">
+              <X>4.5</X>
+              <Y>1.3</Y>
+              <Z>0.22</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>93.00000000</X>
+              <Y>3.65000000</Y>
+              <Z>6.45000000</Z>
+              <R00>1.00000000</R00>
+              <R01>0.00000000</R01>
+              <R02>0.00000000</R02>
+              <R10>0.00000000</R10>
+              <R11>1.00000000</R11>
+              <R12>0.00000000</R12>
+              <R20>-0.00000000</R20>
+              <R21>0.00000000</R21>
+              <R22>1.00000000</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX0000000000000000000000000000002A">
+          <Properties>
+            <string name="Name">WalkwayGuide</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">false</bool>
+            <float name="Transparency">0</float>
+            <Color3 name="Color">
+              <R>0.2470588</R>
+              <G>0.9019608</G>
+              <B>0.8509804</B>
+            </Color3>
+            <token name="Material">288</token>
+            <token name="Shape">1</token>
+            <Vector3 name="Size">
+              <X>0.18</X>
+              <Y>0.09</Y>
+              <Z>4.8</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>89.60000000</X>
+              <Y>0.90000000</Y>
+              <Z>6.60000000</Z>
+              <R00>1.00000000</R00>
+              <R01>0.00000000</R01>
+              <R02>0.00000000</R02>
+              <R10>0.00000000</R10>
+              <R11>1.00000000</R11>
+              <R12>0.00000000</R12>
+              <R20>-0.00000000</R20>
+              <R21>0.00000000</R21>
+              <R22>1.00000000</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX0000000000000000000000000000002B">
+          <Properties>
+            <string name="Name">WalkwayGuide</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">false</bool>
+            <float name="Transparency">0</float>
+            <Color3 name="Color">
+              <R>0.2470588</R>
+              <G>0.9019608</G>
+              <B>0.8509804</B>
+            </Color3>
+            <token name="Material">288</token>
+            <token name="Shape">1</token>
+            <Vector3 name="Size">
+              <X>0.18</X>
+              <Y>0.09</Y>
+              <Z>4.8</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>96.40000000</X>
+              <Y>0.90000000</Y>
+              <Z>6.60000000</Z>
+              <R00>1.00000000</R00>
+              <R01>0.00000000</R01>
+              <R02>0.00000000</R02>
+              <R10>0.00000000</R10>
+              <R11>1.00000000</R11>
+              <R12>0.00000000</R12>
+              <R20>-0.00000000</R20>
+              <R21>0.00000000</R21>
+              <R22>1.00000000</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+      </Item>
+      <Item class="Model" referent="RBX0000000000000000000000000000002C">
+        <Properties>
+          <string name="Name">Smelter_Station</string>
+        </Properties>
+        <Item class="Part" referent="RBX0000000000000000000000000000002D">
+          <Properties>
+            <string name="Name">Smelter_Base</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0</float>
+            <Color3 name="Color">
+              <R>0.0784314</R>
+              <G>0.1450980</G>
+              <B>0.1960784</B>
+            </Color3>
+            <token name="Material">1088</token>
+            <token name="Shape">1</token>
+            <Vector3 name="Size">
+              <X>6.6</X>
+              <Y>1.35</Y>
+              <Z>3.6</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>109.00000000</X>
+              <Y>1.45000000</Y>
+              <Z>18.90000000</Z>
+              <R00>1.00000000</R00>
+              <R01>0.00000000</R01>
+              <R02>0.00000000</R02>
+              <R10>0.00000000</R10>
+              <R11>1.00000000</R11>
+              <R12>0.00000000</R12>
+              <R20>-0.00000000</R20>
+              <R21>0.00000000</R21>
+              <R22>1.00000000</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX0000000000000000000000000000002E">
+          <Properties>
+            <string name="Name">Smelter_BaseTrim</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0</float>
+            <Color3 name="Color">
+              <R>0.9803922</R>
+              <G>0.5372549</G>
+              <B>0.2666667</B>
+            </Color3>
+            <token name="Material">288</token>
+            <token name="Shape">1</token>
+            <Vector3 name="Size">
+              <X>6.75</X>
+              <Y>0.2</Y>
+              <Z>3.75</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>109.00000000</X>
+              <Y>2.14000000</Y>
+              <Z>18.90000000</Z>
+              <R00>1.00000000</R00>
+              <R01>0.00000000</R01>
+              <R02>0.00000000</R02>
+              <R10>0.00000000</R10>
+              <R11>1.00000000</R11>
+              <R12>0.00000000</R12>
+              <R20>-0.00000000</R20>
+              <R21>0.00000000</R21>
+              <R22>1.00000000</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX0000000000000000000000000000002F">
+          <Properties>
+            <string name="Name">Smelter_Console</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0</float>
+            <Color3 name="Color">
+              <R>0.1137255</R>
+              <G>0.2000000</G>
+              <B>0.2509804</B>
+            </Color3>
+            <token name="Material">1088</token>
+            <token name="Shape">1</token>
+            <Vector3 name="Size">
+              <X>5.2</X>
+              <Y>2.3</Y>
+              <Z>1.8</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>109.00000000</X>
+              <Y>3.35000000</Y>
+              <Z>19.32000000</Z>
+              <R00>1.00000000</R00>
+              <R01>0.00000000</R01>
+              <R02>0.00000000</R02>
+              <R10>0.00000000</R10>
+              <R11>1.00000000</R11>
+              <R12>0.00000000</R12>
+              <R20>-0.00000000</R20>
+              <R21>0.00000000</R21>
+              <R22>1.00000000</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX00000000000000000000000000000030">
+          <Properties>
+            <string name="Name">Smelter_Screen</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">false</bool>
+            <float name="Transparency">0.22</float>
+            <Color3 name="Color">
+              <R>0.9803922</R>
+              <G>0.5372549</G>
+              <B>0.2666667</B>
+            </Color3>
+            <token name="Material">288</token>
+            <token name="Shape">1</token>
+            <Vector3 name="Size">
+              <X>4.55</X>
+              <Y>1.4</Y>
+              <Z>0.12</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>109.00000000</X>
+              <Y>3.65000000</Y>
+              <Z>20.28000000</Z>
+              <R00>1.00000000</R00>
+              <R01>0.00000000</R01>
+              <R02>0.00000000</R02>
+              <R10>0.00000000</R10>
+              <R11>1.00000000</R11>
+              <R12>0.00000000</R12>
+              <R20>-0.00000000</R20>
+              <R21>0.00000000</R21>
+              <R22>1.00000000</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX00000000000000000000000000000031">
+          <Properties>
+            <string name="Name">Smelter_Faceplate</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0</float>
+            <Color3 name="Color">
+              <R>0.0666667</R>
+              <G>0.1019608</G>
+              <B>0.1372549</B>
+            </Color3>
+            <token name="Material">1088</token>
+            <token name="Shape">1</token>
+            <Vector3 name="Size">
+              <X>4.9</X>
+              <Y>0.35</Y>
+              <Z>0.2</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>109.00000000</X>
+              <Y>2.55000000</Y>
+              <Z>20.32000000</Z>
+              <R00>1.00000000</R00>
+              <R01>0.00000000</R01>
+              <R02>0.00000000</R02>
+              <R10>0.00000000</R10>
+              <R11>1.00000000</R11>
+              <R12>0.00000000</R12>
+              <R20>-0.00000000</R20>
+              <R21>0.00000000</R21>
+              <R22>1.00000000</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX00000000000000000000000000000032">
+          <Properties>
+            <string name="Name">Smelter_AmberStatus</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">false</bool>
+            <float name="Transparency">0</float>
+            <Color3 name="Color">
+              <R>0.9686275</R>
+              <G>0.7725490</G>
+              <B>0.3019608</B>
+            </Color3>
+            <token name="Material">288</token>
+            <token name="Shape">1</token>
+            <Vector3 name="Size">
+              <X>0.34</X>
+              <Y>0.31</Y>
+              <Z>0.6</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>107.00000000</X>
+              <Y>4.53000000</Y>
+              <Z>18.90000000</Z>
+              <R00>1.00000000</R00>
+              <R01>0.00000000</R01>
+              <R02>0.00000000</R02>
+              <R10>0.00000000</R10>
+              <R11>1.00000000</R11>
+              <R12>0.00000000</R12>
+              <R20>-0.00000000</R20>
+              <R21>0.00000000</R21>
+              <R22>1.00000000</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX00000000000000000000000000000033">
+          <Properties>
+            <string name="Name">Smelter_Hydraulics</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0</float>
+            <Color3 name="Color">
+              <R>0.4156863</R>
+              <G>0.5215686</G>
+              <B>0.5725490</B>
+            </Color3>
+            <token name="Material">1088</token>
+            <token name="Shape">1</token>
+            <Vector3 name="Size">
+              <X>0.72</X>
+              <Y>3.0</Y>
+              <Z>0.72</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>107.00000000</X>
+              <Y>5.70000000</Y>
+              <Z>14.70000000</Z>
+              <R00>1.00000000</R00>
+              <R01>0.00000000</R01>
+              <R02>0.00000000</R02>
+              <R10>0.00000000</R10>
+              <R11>1.00000000</R11>
+              <R12>0.00000000</R12>
+              <R20>-0.00000000</R20>
+              <R21>0.00000000</R21>
+              <R22>1.00000000</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX00000000000000000000000000000034">
+          <Properties>
+            <string name="Name">Smelter_AmberStatus</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">false</bool>
+            <float name="Transparency">0</float>
+            <Color3 name="Color">
+              <R>0.9686275</R>
+              <G>0.7725490</G>
+              <B>0.3019608</B>
+            </Color3>
+            <token name="Material">288</token>
+            <token name="Shape">1</token>
+            <Vector3 name="Size">
+              <X>0.34</X>
+              <Y>0.31</Y>
+              <Z>0.6</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>111.00000000</X>
+              <Y>4.53000000</Y>
+              <Z>18.90000000</Z>
+              <R00>1.00000000</R00>
+              <R01>0.00000000</R01>
+              <R02>0.00000000</R02>
+              <R10>0.00000000</R10>
+              <R11>1.00000000</R11>
+              <R12>0.00000000</R12>
+              <R20>-0.00000000</R20>
+              <R21>0.00000000</R21>
+              <R22>1.00000000</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX00000000000000000000000000000035">
+          <Properties>
+            <string name="Name">Smelter_Hydraulics</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0</float>
+            <Color3 name="Color">
+              <R>0.4156863</R>
+              <G>0.5215686</G>
+              <B>0.5725490</B>
+            </Color3>
+            <token name="Material">1088</token>
+            <token name="Shape">1</token>
+            <Vector3 name="Size">
+              <X>0.72</X>
+              <Y>3.0</Y>
+              <Z>0.72</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>111.00000000</X>
+              <Y>5.70000000</Y>
+              <Z>14.70000000</Z>
+              <R00>1.00000000</R00>
+              <R01>0.00000000</R01>
+              <R02>0.00000000</R02>
+              <R10>0.00000000</R10>
+              <R11>1.00000000</R11>
+              <R12>0.00000000</R12>
+              <R20>-0.00000000</R20>
+              <R21>0.00000000</R21>
+              <R22>1.00000000</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX00000000000000000000000000000036">
+          <Properties>
+            <string name="Name">Smelter_TopBrow</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0</float>
+            <Color3 name="Color">
+              <R>0.0784314</R>
+              <G>0.1450980</G>
+              <B>0.1960784</B>
+            </Color3>
+            <token name="Material">1088</token>
+            <token name="Shape">1</token>
+            <Vector3 name="Size">
+              <X>7.5</X>
+              <Y>0.68</Y>
+              <Z>1.2</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>109.00000000</X>
+              <Y>5.15000000</Y>
+              <Z>15.80000000</Z>
+              <R00>1.00000000</R00>
+              <R01>0.00000000</R01>
+              <R02>0.00000000</R02>
+              <R10>0.00000000</R10>
+              <R11>1.00000000</R11>
+              <R12>0.00000000</R12>
+              <R20>-0.00000000</R20>
+              <R21>0.00000000</R21>
+              <R22>1.00000000</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX00000000000000000000000000000037">
+          <Properties>
+            <string name="Name">Smelter_AccentRail</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">false</bool>
+            <float name="Transparency">0</float>
+            <Color3 name="Color">
+              <R>0.9803922</R>
+              <G>0.5372549</G>
+              <B>0.2666667</B>
+            </Color3>
+            <token name="Material">288</token>
+            <token name="Shape">1</token>
+            <Vector3 name="Size">
+              <X>7.65</X>
+              <Y>0.18</Y>
+              <Z>1.35</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>109.00000000</X>
+              <Y>5.57000000</Y>
+              <Z>15.80000000</Z>
+              <R00>1.00000000</R00>
+              <R01>0.00000000</R01>
+              <R02>0.00000000</R02>
+              <R10>0.00000000</R10>
+              <R11>1.00000000</R11>
+              <R12>0.00000000</R12>
+              <R20>-0.00000000</R20>
+              <R21>0.00000000</R21>
+              <R22>1.00000000</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX00000000000000000000000000000038">
+          <Properties>
+            <string name="Name">HeatWindow</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">false</bool>
+            <float name="Transparency">0.3</float>
+            <Color3 name="Color">
+              <R>0.9803922</R>
+              <G>0.5372549</G>
+              <B>0.2666667</B>
+            </Color3>
+            <token name="Material">288</token>
+            <token name="Shape">1</token>
+            <Vector3 name="Size">
+              <X>6.3</X>
+              <Y>3.2</Y>
+              <Z>0.17</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>109.00000000</X>
+              <Y>5.80000000</Y>
+              <Z>16.60000000</Z>
+              <R00>1.00000000</R00>
+              <R01>0.00000000</R01>
+              <R02>0.00000000</R02>
+              <R10>0.00000000</R10>
+              <R11>1.00000000</R11>
+              <R12>0.00000000</R12>
+              <R20>-0.00000000</R20>
+              <R21>0.00000000</R21>
+              <R22>1.00000000</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX00000000000000000000000000000039">
+          <Properties>
+            <string name="Name">InductionCoil</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0</float>
+            <Color3 name="Color">
+              <R>0.9803922</R>
+              <G>0.5372549</G>
+              <B>0.2666667</B>
+            </Color3>
+            <token name="Material">1088</token>
+            <token name="Shape">2</token>
+            <Vector3 name="Size">
+              <X>1.1</X>
+              <Y>1.3</Y>
+              <Z>1.3</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>106.70000000</X>
+              <Y>8.60000000</Y>
+              <Z>13.00000000</Z>
+              <R00>0</R00>
+              <R01>1</R01>
+              <R02>0</R02>
+              <R10>-1</R10>
+              <R11>0</R11>
+              <R12>0</R12>
+              <R20>0</R20>
+              <R21>0</R21>
+              <R22>1</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX0000000000000000000000000000003A">
+          <Properties>
+            <string name="Name">InductionCoil</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0</float>
+            <Color3 name="Color">
+              <R>0.9803922</R>
+              <G>0.5372549</G>
+              <B>0.2666667</B>
+            </Color3>
+            <token name="Material">1088</token>
+            <token name="Shape">2</token>
+            <Vector3 name="Size">
+              <X>1.1</X>
+              <Y>1.3</Y>
+              <Z>1.3</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>109.00000000</X>
+              <Y>8.60000000</Y>
+              <Z>13.00000000</Z>
+              <R00>0</R00>
+              <R01>1</R01>
+              <R02>0</R02>
+              <R10>-1</R10>
+              <R11>0</R11>
+              <R12>0</R12>
+              <R20>0</R20>
+              <R21>0</R21>
+              <R22>1</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX0000000000000000000000000000003B">
+          <Properties>
+            <string name="Name">InductionCoil</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0</float>
+            <Color3 name="Color">
+              <R>0.9803922</R>
+              <G>0.5372549</G>
+              <B>0.2666667</B>
+            </Color3>
+            <token name="Material">1088</token>
+            <token name="Shape">2</token>
+            <Vector3 name="Size">
+              <X>1.1</X>
+              <Y>1.3</Y>
+              <Z>1.3</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>111.30000000</X>
+              <Y>8.60000000</Y>
+              <Z>13.00000000</Z>
+              <R00>0</R00>
+              <R01>1</R01>
+              <R02>0</R02>
+              <R10>-1</R10>
+              <R11>0</R11>
+              <R12>0</R12>
+              <R20>0</R20>
+              <R21>0</R21>
+              <R22>1</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX0000000000000000000000000000003C">
+          <Properties>
+            <string name="Name">HeatVent</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">true</bool>
+            <float name="Transparency">0</float>
+            <Color3 name="Color">
+              <R>0.0666667</R>
+              <G>0.1019608</G>
+              <B>0.1372549</B>
+            </Color3>
+            <token name="Material">1088</token>
+            <token name="Shape">1</token>
+            <Vector3 name="Size">
+              <X>8</X>
+              <Y>0.3</Y>
+              <Z>5.5</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>109.00000000</X>
+              <Y>10.00000000</Y>
+              <Z>12.00000000</Z>
+              <R00>1.00000000</R00>
+              <R01>0.00000000</R01>
+              <R02>0.00000000</R02>
+              <R10>0.00000000</R10>
+              <R11>1.00000000</R11>
+              <R12>0.00000000</R12>
+              <R20>-0.00000000</R20>
+              <R21>0.00000000</R21>
+              <R22>1.00000000</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX0000000000000000000000000000003D">
+          <Properties>
+            <string name="Name">MachineInteractor</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">false</bool>
+            <float name="Transparency">1</float>
+            <Color3 name="Color">
+              <R>0.9803922</R>
+              <G>0.5372549</G>
+              <B>0.2666667</B>
+            </Color3>
+            <token name="Material">1568</token>
+            <token name="Shape">1</token>
+            <Vector3 name="Size">
+              <X>4.5</X>
+              <Y>1.3</Y>
+              <Z>0.22</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>109.00000000</X>
+              <Y>3.65000000</Y>
+              <Z>20.45000000</Z>
+              <R00>1.00000000</R00>
+              <R01>0.00000000</R01>
+              <R02>0.00000000</R02>
+              <R10>0.00000000</R10>
+              <R11>1.00000000</R11>
+              <R12>0.00000000</R12>
+              <R20>-0.00000000</R20>
+              <R21>0.00000000</R21>
+              <R22>1.00000000</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX0000000000000000000000000000003E">
+          <Properties>
+            <string name="Name">WalkwayGuide</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">false</bool>
+            <float name="Transparency">0</float>
+            <Color3 name="Color">
+              <R>0.9803922</R>
+              <G>0.5372549</G>
+              <B>0.2666667</B>
+            </Color3>
+            <token name="Material">288</token>
+            <token name="Shape">1</token>
+            <Vector3 name="Size">
+              <X>0.18</X>
+              <Y>0.09</Y>
+              <Z>4.8</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>105.60000000</X>
+              <Y>0.90000000</Y>
+              <Z>20.60000000</Z>
+              <R00>1.00000000</R00>
+              <R01>0.00000000</R01>
+              <R02>0.00000000</R02>
+              <R10>0.00000000</R10>
+              <R11>1.00000000</R11>
+              <R12>0.00000000</R12>
+              <R20>-0.00000000</R20>
+              <R21>0.00000000</R21>
+              <R22>1.00000000</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="Part" referent="RBX0000000000000000000000000000003F">
+          <Properties>
+            <string name="Name">WalkwayGuide</string>
+            <bool name="Anchored">true</bool>
+            <bool name="CanCollide">false</bool>
+            <float name="Transparency">0</float>
+            <Color3 name="Color">
+              <R>0.9803922</R>
+              <G>0.5372549</G>
+              <B>0.2666667</B>
+            </Color3>
+            <token name="Material">288</token>
+            <token name="Shape">1</token>
+            <Vector3 name="Size">
+              <X>0.18</X>
+              <Y>0.09</Y>
+              <Z>4.8</Z>
+            </Vector3>
+            <CoordinateFrame name="CFrame">
+              <X>112.40000000</X>
+              <Y>0.90000000</Y>
+              <Z>20.60000000</Z>
+              <R00>1.00000000</R00>
+              <R01>0.00000000</R01>
+              <R02>0.00000000</R02>
+              <R10>0.00000000</R10>
+              <R11>1.00000000</R11>
+              <R12>0.00000000</R12>
+              <R20>-0.00000000</R20>
+              <R21>0.00000000</R21>
+              <R22>1.00000000</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+      </Item>
+    </Item>
+    <Item class="ModuleScript" referent="RBX00000000000000000000000000000040">
+      <Properties>
+        <string name="Name">Config</string>
+        <ProtectedString name="Source"><![CDATA[-- Scrapworks Phase 2: purchases and processor throughput. Prices are in session Cash.
+local Config = {}
+Config.Order = {"Compactor", "Sorter", "Smelter"}
+Config.Machines = {
+    Compactor = {Name="HYDRAULIC COMPACTOR", Cost=200, Multiplier=1.20, Minimum=3, Description="Press scrap into dense bundles", Tier=1},
+    Sorter = {Name="OPTICAL SORTER", Cost=650, Multiplier=1.35, Minimum=5, Description="Sort and recover extra value", Tier=2},
+    Smelter = {Name="INDUCTION SMELTER", Cost=1600, Multiplier=1.60, Minimum=8, Description="Refine scrap into high-value ingots", Tier=3},
+}
+return Config
+]]></ProtectedString>
+      </Properties>
+    </Item>
+    <Item class="ModuleScript" referent="RBX00000000000000000000000000000041">
+      <Properties>
+        <string name="Name">MachineService</string>
+        <ProtectedString name="Source"><![CDATA[-- Scrapworks Phase 2: server-only purchases and machine processing.
+-- Uses Phase 1 InventoryService/EconomyService rather than replacing existing systems.
+local Players=game:GetService("Players")
+local TweenService=game:GetService("TweenService")
+local Config=require(script.Parent.Config)
+local Root=script.Parent
+local Upgrade={}
+local inventory, economy
+local processing={}
+local animating={}
+local function animateStation(id)
+    if animating[id] then return end
+    local stations=Root:FindFirstChild("MachineStations")
+    local station=stations and stations:FindFirstChild(id.."_Station")
+    if not station then return end
+    local part=station:FindFirstChild(id=="Compactor" and "CompressionPlateUpper" or (id=="Sorter" and "ScannerRail" or "HeatWindow"))
+    if not part or not part:IsA("BasePart") then return end
+    animating[id]=true
+    if id=="Compactor" then
+        local original=part.CFrame
+        TweenService:Create(part,TweenInfo.new(.3,Enum.EasingStyle.Quad,Enum.EasingDirection.In),{CFrame=original*CFrame.new(0,-1.3,0)}):Play()
+        task.delay(.38,function()
+            if part.Parent then TweenService:Create(part,TweenInfo.new(.6,Enum.EasingStyle.Back),{CFrame=original}):Play() end
+        end)
+    elseif id=="Sorter" then
+        local original=part.Color
+        TweenService:Create(part,TweenInfo.new(.3),{Color=Color3.fromRGB(245,252,255)}):Play()
+        task.delay(.6,function()
+            if part.Parent then TweenService:Create(part,TweenInfo.new(.6),{Color=original}):Play() end
+        end)
+    else
+        local original=part.Transparency
+        TweenService:Create(part,TweenInfo.new(.4),{Transparency=0}):Play()
+        task.delay(.7,function()
+            if part.Parent then TweenService:Create(part,TweenInfo.new(.6),{Transparency=original}):Play() end
+        end)
+    end
+    task.delay(1.5,function()animating[id]=nil end)
+end
+
+local function notify(player,message)
+    if player.Parent~=Players then return end
+    player:SetAttribute("SW1_Notice",message)
+    player:SetAttribute("SW1_NoticeSeq",(player:GetAttribute("SW1_NoticeSeq") or 0)+1)
+end
+function Upgrade.BindPhase1(phase1)
+    inventory=require(phase1:WaitForChild("InventoryService"))
+    economy=require(phase1:WaitForChild("EconomyService"))
+end
+function Upgrade.Init(player)
+    for _,id in ipairs(Config.Order) do
+        local key="SW2_Own_"..id
+        if player:GetAttribute(key)==nil then player:SetAttribute(key,false) end
+    end
+    if player:GetAttribute("SW2_ActiveMachine")==nil then player:SetAttribute("SW2_ActiveMachine","") end
+    player:SetAttribute("SW2_Ready",true)
+end
+local function has(player,id) return player:GetAttribute("SW2_Own_"..id)==true end
+function Upgrade.Purchase(player,id)
+    if player.Parent~=Players or type(id)~="string" then return end
+    local info=Config.Machines[id]
+    if not info then return end
+    if has(player,id) then notify(player,info.Name.." already unlocked!");return end
+    local tier=info.Tier
+    if tier>1 and not has(player,Config.Order[tier-1]) then
+        notify(player,"Unlock the previous machine first.");return
+    end
+    local cash=economy.Init(player)
+    if cash.Value<info.Cost then notify(player,"Need $"..tostring(info.Cost-cash.Value).." more to unlock "..info.Name);return end
+    cash.Value-=info.Cost
+    player:SetAttribute("SW2_Own_"..id,true)
+    notify(player,"MACHINE UNLOCKED  •  "..info.Name.."! Visit its station in the freight annex.")
+end
+local function distanceOkay(player,part)
+    local char=player.Character
+    local root=char and char:FindFirstChild("HumanoidRootPart")
+    return root and root:IsA("BasePart") and (root.Position-part.Position).Magnitude<=14
+end
+function Upgrade.Process(player,id,interactor)
+    if player.Parent~=Players or not distanceOkay(player,interactor) then return end
+    local info=Config.Machines[id];if not info then return end
+    if processing[player] then notify(player,"Machine is still cooling down.");return end
+    if player:GetAttribute("SW1_Processing")==true then notify(player,"Wait for the refinery to finish.");return end
+    if not has(player,id) then notify(player,"Unlock "..info.Name.." from the UPGRADES menu first.");return end
+    local count=inventory.Total(player)
+    if count<info.Minimum then
+        notify(player,"Need at least "..info.Minimum.." scrap pieces to use this machine.")
+        return
+    end
+    -- Atomic within one server callback: no yields between SellAll and credit.
+    local quantity, baseValue=inventory.SellAll(player)
+    if quantity<info.Minimum or baseValue<=0 then return end
+    local payout=math.floor(baseValue*info.Multiplier+.5)
+    if not economy.Credit(player,payout) then
+        warn("[Scrapworks Phase2] Unanticipated credit failure after consuming inventory for",player.UserId)
+        return
+    end
+    processing[player]=true
+    animateStation(id)
+    player:SetAttribute("SW2_ActiveMachine",id)
+    player:SetAttribute("SW2_LastSale",quantity.." items → $"..payout)
+    notify(player,info.Name.."  •  "..quantity.." pieces processed  •  +$"..payout.."  ("..math.floor(info.Multiplier*100+.5).."% sale value)")
+    task.delay(1.5,function()
+        processing[player]=nil
+        if player.Parent==Players then player:SetAttribute("SW2_ActiveMachine","") end
+    end)
+end
+function Upgrade.Release(player) processing[player]=nil;throttle[player]=nil end
+return Upgrade
+]]></ProtectedString>
+      </Properties>
+    </Item>
+    <Item class="Script" referent="RBX00000000000000000000000000000042">
+      <Properties>
+        <string name="Name">Phase2Bootstrap</string>
+        <bool name="Disabled">false</bool>
+        <ProtectedString name="Source"><![CDATA[-- Scrapworks Phase 2: independent additive upgrade, import exactly once.
+local Players=game:GetService("Players")
+local ReplicatedStorage=game:GetService("ReplicatedStorage")
+local Root=script.Parent
+if workspace:FindFirstChild("SCRAPWORKS_PHASE2_ADDON")~=Root then
+    warn("[SW Phase2] Duplicate Phase2 add-on ignored. Remove extra copies from Workspace.")
+    return
+end
+local phase1=workspace:WaitForChild("SCRAPWORKS_PHASE1_ADDON",20)
+local phase0=workspace:WaitForChild("SCRAPWORKS_DEMO_V1",20)
+if not phase1 or not phase0 then warn("[SW Phase2] Phase0 and Phase1 must be present before installing Phase2.");return end
+local Config=require(Root:WaitForChild("Config"))
+local Upgrade=require(Root:WaitForChild("MachineService"))
+Upgrade.BindPhase1(phase1)
+local remotes=Instance.new("Folder");remotes.Name="SW2_Remotes";remotes.Parent=Root
+local purchaseRemote=Instance.new("RemoteEvent");purchaseRemote.Name="PurchaseMachine";purchaseRemote.Parent=remotes
+local function setup(player)
+    local limit=os.clock()+15
+    while player.Parent==Players and not player:GetAttribute("SW1_Ready") and os.clock()<limit do task.wait(.15) end
+    if player.Parent~=Players then return end
+    Upgrade.Init(player)
+    local pg=player:WaitForChild("PlayerGui",15)
+    if not pg then return end
+    if not pg:FindFirstChild("ScrapworksPhase2HUD") then
+        local template=Root:FindFirstChild("ScrapworksPhase2HUD")
+        if template then template:Clone().Parent=pg end
+    end
+    player:SetAttribute("SW2_Notice","Machine upgrades available in the UPGRADES menu!")
+end
+Players.PlayerAdded:Connect(function(player)task.spawn(setup,player)end)
+Players.PlayerRemoving:Connect(Upgrade.Release)
+for _,player in ipairs(Players:GetPlayers()) do task.spawn(setup,player) end
+local lastRequest={}
+purchaseRemote.OnServerEvent:Connect(function(player,id)
+    local now=os.clock()
+    if now-(lastRequest[player] or -100)<.35 then return end
+    lastRequest[player]=now
+    Upgrade.Purchase(player,id)
+end)
+Players.PlayerRemoving:Connect(function(p)lastRequest[p]=nil end)
+local colors={Compactor=Color3.fromRGB(255,205,92),Sorter=Color3.fromRGB(83,241,229),Smelter=Color3.fromRGB(250,139,74)}
+local stations=Root:WaitForChild("MachineStations")
+local function makeSign(part,title,sub,color)
+    local gui=Instance.new("SurfaceGui")
+    gui.Name="MachineSign";gui.Face=Enum.NormalId.Back;gui.LightInfluence=0;gui.PixelsPerStud=45
+    gui.Parent=part
+    local f=Instance.new("Frame")
+    f.BackgroundTransparency=1;f.Size=UDim2.fromScale(1,1);f.Parent=gui
+    local l=Instance.new("TextLabel")
+    l.BackgroundTransparency=1;l.Size=UDim2.fromScale(1,.58)
+    l.Font=Enum.Font.GothamBlack;l.TextScaled=true;l.Text=title
+    l.TextColor3=color;l.TextStrokeTransparency=.3;l.Parent=f
+    local s=Instance.new("TextLabel")
+    s.BackgroundTransparency=1;s.Position=UDim2.fromScale(0,.6);s.Size=UDim2.fromScale(1,.35)
+    s.Font=Enum.Font.GothamBold;s.TextScaled=true;s.Text=sub
+    s.TextColor3=Color3.fromRGB(240,249,252);s.Parent=f
+end
+for _,id in ipairs(Config.Order) do
+    local info=Config.Machines[id]
+    local machine=stations:FindFirstChild(id.."_Station")
+    local interaction=machine and machine:FindFirstChild("MachineInteractor")
+    if interaction then
+        local screen=machine:FindFirstChild(id.."_Screen")
+        if screen then makeSign(screen,info.Name,"+"..math.floor((info.Multiplier-1)*100+.5).."% VALUE  •  "..info.Minimum.." SCRAP",colors[id]) end
+        local prompt=Instance.new("ProximityPrompt")
+        prompt.Name="ProcessScrap";prompt.ActionText="Process Scrap";prompt.ObjectText=info.Name
+        prompt.KeyboardKeyCode=Enum.KeyCode.E;prompt.MaxActivationDistance=10
+        prompt.HoldDuration=.4;prompt.RequiresLineOfSight=false;prompt.Parent=interaction
+        prompt.Triggered:Connect(function(player)Upgrade.Process(player,id,interaction)end)
+    else
+        warn("[SW Phase2] Missing station:",id)
+    end
+end
+print("[Scrapworks Phase2] Upgrade installed: 3 purchaseable machines, processing modules and HUD alignment fix.")
+]]></ProtectedString>
+      </Properties>
+    </Item>
+    <Item class="ScreenGui" referent="RBX00000000000000000000000000000043">
+      <Properties>
+        <string name="Name">ScrapworksPhase2HUD</string>
+        <bool name="ResetOnSpawn">false</bool>
+        <bool name="IgnoreGuiInset">false</bool>
+        <int name="DisplayOrder">30</int>
+      </Properties>
+      <Item class="LocalScript" referent="RBX00000000000000000000000000000044">
+        <Properties>
+          <string name="Name">Phase2HUDController</string>
+          <bool name="Disabled">false</bool>
+          <ProtectedString name="Source"><![CDATA[-- Scrapworks Phase 2 : optional machine shop + safe non-destructive Phase 1 HUD alignment fix.
+local Players=game:GetService("Players")
+local TweenService=game:GetService("TweenService")
+local player=Players.LocalPlayer
+if not player then return end
+local gui=script.Parent
+local root=workspace:WaitForChild("SCRAPWORKS_PHASE2_ADDON")
+local remotes=root:WaitForChild("SW2_Remotes")
+local purchase=remotes:WaitForChild("PurchaseMachine")
+local config=require(root:WaitForChild("Config"))
+local NAVY=Color3.fromRGB(15,29,40)
+local PANEL=Color3.fromRGB(24,45,59)
+local LIGHT=Color3.fromRGB(241,249,249)
+local MUTED=Color3.fromRGB(156,190,200)
+local CYAN=Color3.fromRGB(79,239,219)
+local GOLD=Color3.fromRGB(255,207,105)
+local TINTS={Compactor=Color3.fromRGB(255,205,92),Sorter=Color3.fromRGB(81,228,220),Smelter=Color3.fromRGB(249,153,94)}
+local function round(frame,r)
+    local c=Instance.new("UICorner");c.CornerRadius=UDim.new(0,r or 10);c.Parent=frame
+end
+local function text(parent,name,txt,pos,size,font,color)
+    local t=Instance.new("TextLabel")
+    t.Name=name;t.BackgroundTransparency=1;t.Position=pos;t.Size=size
+    t.Text=txt;t.Font=font or Enum.Font.Gotham;t.TextColor3=color or LIGHT
+    t.TextSize=14;t.TextXAlignment=Enum.TextXAlignment.Left;t.TextYAlignment=Enum.TextYAlignment.Center
+    t.Parent=parent;return t
+end
+local function action(parent,name,txt,pos,size,bg)
+    local b=Instance.new("TextButton")
+    b.Name=name;b.Text=txt;b.Position=pos;b.Size=size
+    b.TextSize=14;b.Font=Enum.Font.GothamBold;b.TextColor3=LIGHT
+    b.BorderSizePixel=0;b.BackgroundColor3=bg or PANEL
+    b.AutoButtonColor=true;b.Parent=parent;round(b,10)
+    return b
+end
+
+-- Bug fix: Phase1 header capacity counter extended past the inventory panel's right edge.
+-- Keep existing Phase1 controller and stats; adjust only the counter and brand text.
+task.spawn(function()
+    local pg=player:WaitForChild("PlayerGui")
+    local h=pg:WaitForChild("ScrapworksPhase1HUD",25)
+    if not h then return end
+    local inv=h:WaitForChild("MaterialInventory",15)
+    if inv then
+        local count=inv:WaitForChild("QtyText",10)
+        if count then
+            count.Position=UDim2.fromOffset(250,9)
+            count.Size=UDim2.fromOffset(86,26)
+            count.TextXAlignment=Enum.TextXAlignment.Right
+            count.TextScaled=false
+            count.TextSize=17
+        end
+    end
+    local brand=h:FindFirstChild("Brand")
+    local label=brand and brand:FindFirstChild("BrandText")
+    if label then label.Text="SCRAPWORKS  /  PHASE 02" end
+end)
+
+local trigger=action(gui,"UpgradeToggle","⚙  UPGRADES",UDim2.new(1,-20,1,-22),UDim2.fromOffset(164,50),NAVY)
+trigger.AnchorPoint=Vector2.new(1,1)
+local stroke=Instance.new("UIStroke");stroke.Color=CYAN;stroke.Transparency=.35;stroke.Thickness=1.5;stroke.Parent=trigger
+local frame=Instance.new("Frame")
+frame.Name="MachineShop";frame.AnchorPoint=Vector2.new(.5,.5);frame.Position=UDim2.fromScale(.5,.5)
+frame.Size=UDim2.fromOffset(570,465);frame.BackgroundColor3=NAVY;frame.BorderSizePixel=0
+frame.Visible=false;frame.Parent=gui;round(frame,15)
+local border=Instance.new("UIStroke");border.Color=Color3.fromRGB(83,134,147);border.Transparency=.25;border.Thickness=1.4;border.Parent=frame
+local header=text(frame,"Title","MACHINE UPGRADES",UDim2.fromOffset(24,17),UDim2.fromOffset(440,34),Enum.Font.GothamBlack,CYAN)
+header.TextSize=24
+local subtitle=text(frame,"Subtitle","Spend CASH to unlock higher-value scrap processing.",UDim2.fromOffset(24,50),UDim2.fromOffset(470,27),Enum.Font.Gotham,MUTED)
+subtitle.TextSize=13
+local close=action(frame,"Close","✕",UDim2.new(1,-18,0,18),UDim2.fromOffset(37,37),Color3.fromRGB(51,68,79))
+close.AnchorPoint=Vector2.new(1,0)
+local line=Instance.new("Frame")
+line.Position=UDim2.fromOffset(24,87);line.Size=UDim2.new(1,-48,0,1);line.BorderSizePixel=0
+line.BackgroundColor3=Color3.fromRGB(68,103,119);line.Parent=frame
+local cards={}
+for i,id in ipairs(config.Order) do
+    local info=config.Machines[id]
+    local row=Instance.new("Frame")
+    row.Name=id.."Card";row.Size=UDim2.new(1,-44,0,96)
+    row.Position=UDim2.fromOffset(22,101+(i-1)*105)
+    row.BackgroundColor3=PANEL;row.BorderSizePixel=0;row.Parent=frame;round(row,11)
+    local strip=Instance.new("Frame");strip.Size=UDim2.fromOffset(5,74)
+    strip.Position=UDim2.fromOffset(9,11);strip.BackgroundColor3=TINTS[id]
+    strip.BorderSizePixel=0;strip.Parent=row;round(strip,3)
+    local name=text(row,"MachineName",info.Name,UDim2.fromOffset(27,9),UDim2.fromOffset(285,23),Enum.Font.GothamBold,LIGHT)
+    name.TextSize=17
+    local desc=text(row,"Description",info.Description,UDim2.fromOffset(27,36),UDim2.fromOffset(330,20),Enum.Font.Gotham,MUTED)
+    desc.TextSize=12
+    local benefit=text(row,"Benefit","+"..math.floor((info.Multiplier-1)*100+.5).."% VALUE   •   "..info.Minimum.." SCRAP MIN",UDim2.fromOffset(27,62),UDim2.fromOffset(350,21),Enum.Font.GothamBold,TINTS[id])
+    benefit.TextSize=12
+    local buy=action(row,"Buy","$"..info.Cost,UDim2.new(1,-14,.5,0),UDim2.fromOffset(133,44),TINTS[id])
+    buy.AnchorPoint=Vector2.new(1,.5)
+    buy.TextColor3=NAVY
+    buy.MouseButton1Click:Connect(function()purchase:FireServer(id)end)
+    cards[id]={Button=buy,Info=info}
+end
+local footer=text(frame,"Footer","Collect scrap → Unlock a machine → Process your bag at its station.",UDim2.fromOffset(24,424),UDim2.new(1,-45,0,28),Enum.Font.Gotham,MUTED)
+footer.TextSize=13
+local scale=Instance.new("UIScale");scale.Name="FitScale";scale.Parent=frame
+local tscale=Instance.new("UIScale");tscale.Name="ToggleScale";tscale.Parent=trigger
+local function fit()
+    local cam=workspace.CurrentCamera
+    if not cam then return end
+    local v=cam.ViewportSize
+    scale.Scale=math.clamp(math.min((v.X-24)/570,(v.Y-24)/465),.55,1)
+    tscale.Scale=math.clamp(math.min(v.X/1100,v.Y/690),.72,1)
+end
+if workspace.CurrentCamera then
+    workspace.CurrentCamera:GetPropertyChangedSignal("ViewportSize"):Connect(fit)
+end
+fit()
+local function refresh()
+    for idx,id in ipairs(config.Order) do
+        local x=cards[id]
+        local owned=player:GetAttribute("SW2_Own_"..id)==true
+        local required=idx>1 and player:GetAttribute("SW2_Own_"..config.Order[idx-1])~=true
+        local button=x.Button
+        if owned then
+            button.Text="✓ OWNED";button.BackgroundColor3=Color3.fromRGB(63,103,86);button.TextColor3=LIGHT
+        elseif required then
+            button.Text="LOCKED";button.BackgroundColor3=Color3.fromRGB(69,78,91);button.TextColor3=Color3.fromRGB(181,195,204)
+        else
+            button.Text="$"..x.Info.Cost;button.BackgroundColor3=TINTS[id];button.TextColor3=NAVY
+        end
+    end
+end
+for _,id in ipairs(config.Order) do player:GetAttributeChangedSignal("SW2_Own_"..id):Connect(refresh) end
+refresh()
+local function setVisible(value)
+    frame.Visible=value
+    trigger.Text=value and "✕  CLOSE" or "⚙  UPGRADES"
+end
+trigger.MouseButton1Click:Connect(function()setVisible(not frame.Visible)end)
+close.MouseButton1Click:Connect(function()setVisible(false)end)
+-- UI only; purchases are validated by the server.
+]]></ProtectedString>
+        </Properties>
+      </Item>
+    </Item>
+  </Item>
+</roblox>
