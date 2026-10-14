@@ -1,0 +1,123 @@
+{
+  "version": "0.4.0",
+  "root": "SCRAPWORKS_GAME",
+  "model_path": "models/Scrapworks_v0.4.0_Unified.rbxmx",
+  "previous_phases": [
+    0,
+    1,
+    2,
+    2.5
+  ],
+  "instances": 1040,
+  "cosmetic_scrap_parts": 228,
+  "removed_obstructing_parts": {
+    "SortCanopyColumn": 4,
+    "SortCanopyRoof": 1,
+    "SortRoofYellowStrip": 4,
+    "SortingSign": 1,
+    "HeavyStorageShelf": 9,
+    "HeavyStorageColumn": 12
+  },
+  "machine_guards": [
+    [
+      "Compactor",
+      "SafetyRearPanel"
+    ],
+    [
+      "Compactor",
+      "SafetyGuardLeft"
+    ],
+    [
+      "Compactor",
+      "SafetyGuardRight"
+    ],
+    [
+      "Sorter",
+      "SafetyRearPanel"
+    ],
+    [
+      "Sorter",
+      "SafetyGuardLeft"
+    ],
+    [
+      "Sorter",
+      "SafetyGuardRight"
+    ],
+    [
+      "Smelter",
+      "SafetyRearPanel"
+    ],
+    [
+      "Smelter",
+      "SafetyGuardLeft"
+    ],
+    [
+      "Smelter",
+      "SafetyGuardRight"
+    ]
+  ],
+  "relocated_nodes": {
+    "Scrap_Aluminum_10": [
+      57,
+      34
+    ],
+    "Scrap_Aluminum_11": [
+      70,
+      34
+    ],
+    "Scrap_Aluminum_12": [
+      83,
+      34
+    ],
+    "Scrap_Aluminum_13": [
+      96,
+      34
+    ],
+    "Scrap_Battery_14": [
+      109,
+      34
+    ],
+    "Scrap_Battery_15": [
+      122,
+      34
+    ],
+    "Scrap_Battery_16": [
+      136,
+      34
+    ],
+    "Scrap_Battery_17": [
+      55,
+      -34
+    ],
+    "Scrap_Alloy_18": [
+      69,
+      -34
+    ],
+    "Scrap_Alloy_19": [
+      83,
+      -34
+    ],
+    "Scrap_Alloy_20": [
+      97,
+      -32
+    ],
+    "Scrap_Alloy_21": [
+      112,
+      -32
+    ],
+    "Scrap_Copper_22": [
+      126,
+      -24
+    ],
+    "Scrap_Steel_23": [
+      140,
+      -24
+    ],
+    "Scrap_Circuit_24": [
+      139,
+      10
+    ]
+  },
+  "sha256": "8ea157373cd6dc6d1d2e0578e2a5c30f508621834eb3214d4ee7d4c05e3364ae",
+  "tested_in_studio": false
+}

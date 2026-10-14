@@ -1,48 +1,46 @@
-# Scrapworks — Modular Roblox Factory Simulator
+# Scrapworks v0.4.0 — Unified Workspace Model
 
-A phase-by-phase Roblox Studio project built around collectible scrap, material processing, factory upgrades, and a stylized industrial environment.
+**Migration:** The previous releases comprised four independent Workspace models; they caused physical/layout conflicts. This revision packages a single authoritative `SCRAPWORKS_GAME` model which contains the original functional submodules as internal children, with cross-service references updated accordingly.
 
-**Status:** playable technical prototype; Phase 2 validated in a Studio session by the project owner. Phase 2.5 visual add-on requires Studio testing. All purchases and Cash are **session-only** until a later persistence phase.
+## Install (in Roblox Studio, NOT alongside old models)
 
-## Play / install from Roblox Studio
+1. Save your existing place to a separate `.rbxl` backup.
+2. Stop Play.
+3. Under `Workspace`, DELETE the four previous Scrapworks imports: `SCRAPWORKS_DEMO_V1`, `SCRAPWORKS_PHASE1_ADDON`, `SCRAPWORKS_PHASE2_ADDON`, and `SCRAPWORKS_PHASE25_VISUALS` (and any duplicate/Phase2.6 imports). **Do not remove default Roblox services.**
+4. `Workspace` → **Insert from File** → `Scrapworks_v0.4.0_Unified.rbxmx`.
+5. Confirm Workspace has exactly ONE top-level custom Scrapworks model: `SCRAPWORKS_GAME`.
+6. Ensure any leftover default Baseplate spawn location does not override the game's intended spawn.
+7. Click **Play** to test scrap collection, 12-item inventory, refinery selling, machine unlocking, and processing.
 
-1. Create a new **Baseplate** experience in Roblox Studio.
-2. Import the models below **under Workspace**, one at a time, in this order:
-   1. `models/Scrapworks_Demo_v1.rbxmx`
-   2. `models/Scrapworks_Phase1_Upgrade.rbxmx`
-   3. `models/Scrapworks_Phase2_MachineUpgrade.rbxmx`
-   4. `models/Scrapworks_Phase2_5_VisualOverhaul.rbxmx` (visual styling update, optional)
-3. Preserve all earlier models; do not remove them when adding new phases.
-4. Verify the model names `SCRAPWORKS_DEMO_V1`, `SCRAPWORKS_PHASE1_ADDON`, `SCRAPWORKS_PHASE2_ADDON`, and `SCRAPWORKS_PHASE25_VISUALS` (if installed).
-5. Press Play to collect, process scrap, purchase machines, and refine at upgraded stations.
+Do not install future releases on top of this version. Future releases should **replace** `SCRAPWORKS_GAME` after backing up the `.rbxl` place.
 
-These are Roblox **model** files, not whole `.rbxl` places. They rely on being installed together in the same place as described above.
+## Key changes
 
-## Repository layout
+- Single root model; nested Phase0/Phase1/Phase2 sections retained for maintainability.
+- Removed the detached/elevated opaque canopy and giant shelves that blocked navigation and scrap collection.
+- Repositioned 15 Phase1 collectible nodes inside open lanes; all part coordinates are baked into the model file, including newer visual scrap models.
+- Incorporated six material-specific scrap appearances directly into the collectible models; no duplicate separate SalvageVisuals system.
+- Added machine guard geometry with **CanCollide=true** inside each machine.
+- Machine `E` prompts are controlled locally based on that player's ownership attributes, while processing validation remains on the server.
+- Player-leave cleanup no longer references an undefined `throttle` variable.
+- Kept the original refinery and three machine sale multipliers, shop costs, inventory logic and Cash values.
+- Added limited refinery detailing inside the original refinery model, and retained only the prior visual UI styler.
+- No saving/data migration yet; Cash and ownership still session-only.
 
-- `src/phase0/`: original proof-of-concept Luau sources.
-- `src/phase1/`: six-material economy, inventory, and refinery sources.
-- `src/phase2/`: processing machine purchases and shop sources.
-- `src/phase2_5/`: visual add-on bootstrap and UI styler.
-- `models/`: original importable `.rbxmx` artifacts for each phase.
-- `docs/`: architecture, installation, release notes, and testing.
-- `scripts/`: source extraction/verification helpers.
+## Actual testing status
 
-The Luau files are extracted directly from the corresponding `.rbxmx` sources. Do **not** directly paste all of these in `ServerScriptService` as a new duplicate runtime—these modules are already embedded in the importable models.
+Validated **offline**: XML parses, unique instance referents, collection node position boundaries, game-root script dependencies, and presence of ownership-check logic. **Roblox Studio runtime and multiplayer tests have NOT been executed** here.
 
-## Architecture and updates
+## Required real-world smoke test
 
-Phase 1 disables the original Phase 0 gameplay controller and replaces it with modular server modules. Phase 2 adds machine transactions using Phase 1's inventory and economy services. Phase 2.5 adds cosmetic geometry and reskins the live HUD **without replacing the original purchase or processing code**.
+- Press Play in new / cleaned place, check spawn in the yard not under a model.
+- Press E to collect multiple materials, sell at the refinery for nonzero Cash.
+- Before unlock, confirm each of three processing machines has no usable `E` prompt.
+- Buy Compactor for $200 and confirm the prompt appears within 10 studs for owner; sell >=3 scrap at Compactor.
+- Confirm Sorter and Smelter remain locked.
+- Check all scrap is visible and reachable, machine panels have collision, and no large roof covers salvage ground.
+- Test in 2-player Studio server when feasible to confirm prompt gating and inventory isolation.
 
-This repo is a source mirror and release archive. A future Rojo workflow can make `.luau` source authoritative if desired. For now, use the bundled `.rbxmx` models for playing the game.
+## Phase 3 direction
 
-## Testing and caveats
-
-- Phase 0: player verified collection of five scrap and sale for $120.
-- Phase 1: player verified mixed-material collection and a 12-item sale for $387.
-- Phase 2: player reported the upgrade running and supplied a Play-mode screenshot. Detailed tests for every machine purchase/processor are not independently logged.
-- Phase 2.5: structurally validated as XML and model hierarchy only; **not yet run in Roblox Studio**.
-- All progression is session-only. There are no live Robux transactions or cloud persistence yet.
-- Roblox does not guarantee imported models are safe; inspect third-party resources if importing additional Creator Store content. This code was generated as part of the project.
-
-See `docs/RELEASE_NOTES.md` and `docs/TESTING.md`.
+Next substantial phase is an integrated **manufacturing vertical slice**: raw scrap → refined inputs → assembled goods → contract payout with virtual server-authoritative production, then persistent saving and player-specific state. No more isolated cash-multiplier machines.

@@ -1,0 +1,1 @@
+Built against repository `ushalabs/ScrapWorks-Roblox` (main) audited 2026-10-14. Prior models correspond to Phase0, Phase1, Phase2 and corrected Phase2.5 in its `models/` directory. This archive is generated as a replacement and is not yet committed to GitHub.
