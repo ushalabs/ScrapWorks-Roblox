@@ -10,6 +10,7 @@ local Phase2=gameRoot:WaitForChild("SCRAPWORKS_PHASE2_ADDON")
 local Inventory=require(Phase1:WaitForChild("InventoryService"))
 local Economy=require(Phase1:WaitForChild("EconomyService"))
 local Production=require(root:WaitForChild("ProductionService"))
+local Plots=require(gameRoot:WaitForChild("FactoryPlotsV1"):WaitForChild("FactoryPlotService"))
 local VERSION=1
 local SAVE_IN_STUDIO=false
 local enabled=(not RunService:IsStudio()) or SAVE_IN_STUDIO
@@ -22,12 +23,12 @@ local function snapshot(p)
    Compactor=p:GetAttribute("SW2_Own_Compactor")==true,
    Sorter=p:GetAttribute("SW2_Own_Sorter")==true,
    Smelter=p:GetAttribute("SW2_Own_Smelter")==true},
-   manufacturing=Production.Export(p),savedAt=os.time()}
+   manufacturing=Production.Export(p),automation=Plots.Export(p),savedAt=os.time()}
 end
 local function load(p)
   p:SetAttribute("SW3_Loading",true)
   local deadline=os.clock()+20
-  while p.Parent==Players and (not p:GetAttribute("SW1_Ready") or not p:GetAttribute("SW2_Ready") or not p:GetAttribute("SW3_Ready")) and os.clock()<deadline do task.wait(.1) end
+  while p.Parent==Players and (not p:GetAttribute("SW1_Ready") or not p:GetAttribute("SW2_Ready") or not p:GetAttribute("SW3_Ready") or not p:GetAttribute("SW4_Ready")) and os.clock()<deadline do task.wait(.1) end
   if p.Parent~=Players then return end
   if not enabled then saveAllowed[p]=false;p:SetAttribute("SW3_Loading",false);return end
   local ok,data=pcall(function()return store:GetAsync(key(p))end)
@@ -43,6 +44,7 @@ local function load(p)
        for _,id in ipairs({"Compactor","Sorter","Smelter"}) do p:SetAttribute("SW2_Own_"..id,data.machines[id]==true) end
      end
      Production.Import(p,data.manufacturing)
+     if type(data.automation)=="table" then Plots.Import(p,data.automation) end
   elseif data~=nil then
      warn("[Scrapworks] Unknown profile schema, refusing to overwrite for ",p.UserId)
      saveAllowed[p]=false;p:SetAttribute("SW3_Loading",false);return

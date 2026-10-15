@@ -117,4 +117,33 @@ function P.Import(player,record)
     return true
 end
 function P.Release(player) states[player]=nil end
+
+-- Phase4 internal server-to-server bridge: not exposed to clients or RemoteEvents.
+function P.CountGoods(player,id)
+    if not Config.OutputNames[id] then return 0 end
+    P.Init(player);resolve(player)
+    return states[player] and (states[player].goods[id] or 0) or 0
+end
+function P.CanCreditGoods(player,id,amount)
+    if not Config.OutputNames[id] or type(amount)~="number" or amount<=0 or amount%1~=0 then return false end
+    P.Init(player);resolve(player)
+    return (states[player].goods[id] or 0)+amount<=MAX_GOODS
+end
+function P.CreditGoods(player,id,amount)
+    if not P.CanCreditGoods(player,id,amount) then return false end
+    local d=states[player]
+    d.goods[id]+=amount
+    refresh(player,d)
+    return true
+end
+function P.ConsumeGoods(player,id,amount)
+    if not Config.OutputNames[id] or type(amount)~="number" or amount<=0 or amount%1~=0 then return false end
+    P.Init(player);resolve(player)
+    local d=states[player]
+    if (d.goods[id] or 0)<amount then return false end
+    d.goods[id]-=amount
+    refresh(player,d)
+    return true
+end
+
 return P
